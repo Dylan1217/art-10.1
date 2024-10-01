@@ -2,4 +2,24 @@
 
 .logo {
     width: 65px;
+    padding: 10px;
+    /* justify-content: center; (doesn't work, need to use on flexboxes or div containers) */
+}
+
+.deadpoolHeader {
+    background-color: cornsilk;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+.signupRedirect {
+    background-color: aliceblue;
+    padding-left: 6px;
+    padding-bottom: 17px;
+    border: 1px solid black;
+}
+
+
+#fname{
+      margin-bottom: 10px;  
 }

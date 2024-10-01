@@ -27,11 +27,29 @@
 <body>
   <!-- Place your site's HTML here -->
   <header>
-    <img class="logo" src="./img/deadpool.png" />
-  </header> 
-  <h1>header</h1>
-  <p>This text will display on your site! Oct 1</p>
-  <script src="js/main.js"></script>
+    <img class="logo" src="./img/deadpool.png" alt=""/>
+  </header>
+  
+  <div class="deadpoolHeader">
+    <h1>Deadpool</h1>
+    <p>This text will display on your site! Oct 1</p>
+    <script src="js/main.js"></script>
+  </div>
+
+  <div class="signupRedirect">
+    <h2>Form Signup</h2>
+
+    <form action="thanks.html"> 
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="" required placeholder=""><br>  <!-- required placeholder="Enter your first name", adds description in textbox -->
+      
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="" required placeholder=""><br><br>
+
+      <input type="submit" value="Submit"> <!-- submit button -->
+    </form>
+  </div> 
+
 </body>
 
 </html>
